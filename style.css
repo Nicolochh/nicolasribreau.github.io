@@ -1,0 +1,57 @@
+body {
+  background: #E1CAF6;
+  text-align: center;
+  font-family: Arial;
+}
+
+h1 {
+  color: black;
+  font-family: 'Arial', cursive;
+  font-size: 32px;
+}
+
+h2, h3, h4 {
+  font-family: 'Arial', cursive;
+  font-size: 28px;
+}
+
+}
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+h4, ul, ol {
+  text-align: left;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+p {
+ text-align: justify;
+}
+
+p, ul, ol {
+  font-size: 20px;
+}
+
+.frame {
+    border: 10px solid #ffe268 ;
+    margin: 100px
+    padding: 30px ;
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 10px;
+}
+.container {
+  flex-direction: row
+}
+
+.my-navbar {
+  display: flex;
+  justify-content: space-around; ;
+  align-items: center;
+  background: #ffe268;
+}
